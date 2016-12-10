@@ -1,0 +1,7 @@
+FIX BEFORE RELEASE
+
+1) MATERIAL STRIPPING
+	Created Resources folder with dummy material to avoid compiler removing material features (eg. color)
+
+2) IL2CPP STRIPPING
+	Created empty gameobject with mesh components in Main Menu scene to avoid removing mesh features from build
